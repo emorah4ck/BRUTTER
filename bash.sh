@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # included connectd files 
-. /data/data/com.termux/files/home/offline-bf/zip-cracker.sh 
-. /data/data/com.termux/files/home/offline-bf/pdf-unlocker.sh 
-. /data/data/com.termux/files/home/offline-bf/generate.sh
+. /data/data/com.termux/files/home/BRUTTER/zip-cracker.sh 
+. /data/data/com.termux/files/home/BRUTTER/pdf-unlocker.sh 
+. /data/data/com.termux/files/home/BRUTTER/generate.sh
 # color codes
 s0="\033[1;30m" b0="\033[1;40m"
 s1="\033[1;31m" b1="\033[1;41m"
@@ -61,7 +61,7 @@ if [[ $opt == '1' || $opt == '01' ]]; then
   echo
   printf "   ${s4} YOU ENTERED ${opt}${r0}\n"
   sleep 1
-  pdf_unlockr
+  pdf_unlockr 
   else
   echo
   printf "   ${s4} PLEASE ENTER A VALID OPTION DUDE ${opt}${r0}\n"
